@@ -10,7 +10,7 @@ int main(){
     cin >> pin;
     
 	if (nama == "ugo"){
-		if (0000 <= pin <= 9999){
+		if (pin >= 0 && pin <= 9999){
 			cout << "akses diterima";
 		}
 		else {
@@ -21,3 +21,4 @@ int main(){
 		cout << "user tidak dikenal";
 	}
 }
+
